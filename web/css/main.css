@@ -1,0 +1,52 @@
+body {
+    font-family: 'Century Gothic';
+    background-color: #d4feee;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+.data {
+    margin: 0 auto;
+}
+
+/* Картинка с точками */
+#image-container {
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.point {
+    width: 3px;
+    height: 3px;
+    position: absolute;
+}
+
+.in {
+    background-color: black;
+}
+
+.out {
+    background-color: red;
+}
+
+
+/* для сообщений */
+.error {
+    height: 50px;
+    color: lightcoral;
+}
+
+.success {
+    height: 50px;
+    color: lightgreen;
+}
